@@ -23,3 +23,5 @@ To compile TS code into JS, open terminal & run `tsc [yourTSfile].ts` which resu
 ### NodeJS
 
 ### TypeScript
+
+### Lite-Server (Optional for Dev)
