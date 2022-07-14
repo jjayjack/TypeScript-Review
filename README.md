@@ -44,7 +44,7 @@ Core primitive types are all **lowercase**
 |            |                                      | `tuple`                                         |      `Fixed length array with fixed type`      |
 |            |                                      | `enum`                                          |             `Auto enumerated list`             |
 |            |                                      | `unknown`                                       |
-|            |                                      | `any`                                           |
+|            |                                      | `any`                                           |          `No specific type assigned`           |
 |            |                                      | `never`                                         |
 
 ## Required Materials
