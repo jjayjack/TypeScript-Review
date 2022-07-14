@@ -28,24 +28,24 @@ Variables cannot be re-assigned into a different datatype
 Datatype is _set during development_
 Core primitive types are all **lowercase**
 
-|            | JavaScript                           | TypeScript                                      |
-| :--------: | :----------------------------------- | :---------------------------------------------- |
-| Variables  | `Dynamic can be changed at any time` | `Static cannot be re-assigned once initialized` |
-|  Datatype  | `Resolved at runtime`                | `Set during development`                        |
-| Core types | `Boolean`                            | `boolean`                                       |
+|            | JavaScript                           | TypeScript                                      |          TypeScript Core Differences           |
+| :--------: | :----------------------------------- | :---------------------------------------------- | :--------------------------------------------: |
+| Variables  | `Dynamic can be changed at any time` | `Static cannot be re-assigned once initialized` |                                                |
+|  Datatype  | `Resolved at runtime`                | `Set during development`                        |                                                |
+| Core types | `Boolean`                            | `boolean`                                       |    `Only true/false no 'truthy or falsey'`     |
 |            | `Null`                               | `null`                                          |
 |            | `Undefined`                          | `undefined`                                     |
-|            | `Number`                             | `number`                                        |
+|            | `Number`                             | `number`                                        |      `All numbers, no floats or integers`      |
 |            | `BigInt`                             |                                                 |
-|            | `String`                             | `string`                                        |
+|            | `String`                             | `string`                                        |               `All text values`                |
 |            | `Symbol`                             | `symbol`                                        |
-|            |                                      | `array`                                         |
+|            |                                      | `array`                                         | `Any JS array, type can be flexible or strict` |
 |            |                                      | `tuple`                                         |
 |            |                                      | `enum`                                          |
 |            |                                      | `unknown`                                       |
 |            |                                      | `any`                                           |
 |            |                                      | `never`                                         |
-|            |                                      | `object`                                        |
+|            |                                      | `object`                                        |    `Any JS object, specific types possible`    |
 
 ## Required Materials
 
