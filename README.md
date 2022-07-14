@@ -18,6 +18,35 @@ TypeScript helps simplify and ensure that logic is followed as expected. To begi
 
 To compile TS code into JS, open terminal & run `tsc [yourTSfile].ts` which results in a compiling error because all variables are not data type set. _Note: Make sure that you are within the folder that contains TS file._ Update index.html to include new file created by command.
 
+**TypeScript Types Vs JavaScript Types**
+
+JS - Dynamically type
+Can initialize variable in one type and re-assign it to another
+Datatype is resolved at runtime
+TS - Static type
+Variables cannot be re-assigned into a different datatype
+Datatype is _set during development_
+Core primitive types are all **lowercase**
+
+|            | JavaScript                           | TypeScript                                      |
+| :--------: | :----------------------------------- | :---------------------------------------------- |
+| Variables  | `Dynamic can be changed at any time` | `Static cannot be re-assigned once initialized` |
+|  Datatype  | `Resolved at runtime`                | `Set during development`                        |
+| Core types | `Boolean`                            | `boolean`                                       |
+|            | `Null`                               | `null`                                          |
+|            | `Undefined`                          | `undefined`                                     |
+|            | `Number`                             | `number`                                        |
+|            | `BigInt`                             |                                                 |
+|            | `String`                             | `string`                                        |
+|            | `Symbol`                             | `symbol`                                        |
+|            |                                      | `array`                                         |
+|            |                                      | `tuple`                                         |
+|            |                                      | `enum`                                          |
+|            |                                      | `unknown`                                       |
+|            |                                      | `any`                                           |
+|            |                                      | `never`                                         |
+|            |                                      | `object`                                        |
+
 ## Required Materials
 
 ### NodeJS
