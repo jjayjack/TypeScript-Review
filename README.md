@@ -34,18 +34,18 @@ Core primitive types are all **lowercase**
 |  Datatype  | `Resolved at runtime`                | `Set during development`                        |                                                |
 | Core types | `Boolean`                            | `boolean`                                       |    `Only true/false no 'truthy or falsey'`     |
 |            | `Null`                               | `null`                                          |
-|            | `Undefined`                          | `undefined`                                     |
 |            | `Number`                             | `number`                                        |      `All numbers, no floats or integers`      |
-|            | `BigInt`                             |                                                 |
 |            | `String`                             | `string`                                        |               `All text values`                |
-|            | `Symbol`                             | `symbol`                                        |
 |            |                                      | `array`                                         | `Any JS array, type can be flexible or strict` |
-|            |                                      | `tuple`                                         |
+|            |                                      | `object`                                        |    `Any JS object, specific types possible`    |
+|            | `Undefined`                          | `undefined`                                     |
+|            | `BigInt`                             |                                                 |
+|            | `Symbol`                             | `symbol`                                        |
+|            |                                      | `tuple`                                         |      `Fixed length array with fixed type`      |
 |            |                                      | `enum`                                          |
 |            |                                      | `unknown`                                       |
 |            |                                      | `any`                                           |
 |            |                                      | `never`                                         |
-|            |                                      | `object`                                        |    `Any JS object, specific types possible`    |
 
 ## Required Materials
 
