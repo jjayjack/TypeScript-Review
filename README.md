@@ -42,7 +42,7 @@ Core primitive types are all **lowercase**
 |            | `BigInt`                             |                                                 |
 |            | `Symbol`                             | `symbol`                                        |
 |            |                                      | `tuple`                                         |      `Fixed length array with fixed type`      |
-|            |                                      | `enum`                                          |
+|            |                                      | `enum`                                          |             `Auto enumerated list`             |
 |            |                                      | `unknown`                                       |
 |            |                                      | `any`                                           |
 |            |                                      | `never`                                         |
