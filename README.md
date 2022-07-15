@@ -55,3 +55,18 @@ Core primitive types are all **lowercase**
 ### TypeScript
 
 ### Lite-Server (Optional for Dev)
+
+## Compiling Notes
+
+### Watch mode
+
+Allows the automatic re-fresh for compiling TypeScript file into JavaScript file. **Use for one file**
+
+`tsc [fileName].ts --watch`
+
+**Use for multiple files**
+`tsc --init`
+Creates tsconfig.json file which indicates that TypeScript needs to compile all TS files within project
+run `tsc` to compile
+run `tsc --watch`
+Allows for auto-matic compilation to update
