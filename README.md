@@ -28,24 +28,25 @@ Variables cannot be re-assigned into a different datatype
 Datatype is _set during development_
 Core primitive types are all **lowercase**
 
-|            | JavaScript                           | TypeScript                                      |          TypeScript Core Differences           |
-| :--------: | :----------------------------------- | :---------------------------------------------- | :--------------------------------------------: |
-| Variables  | `Dynamic can be changed at any time` | `Static cannot be re-assigned once initialized` |                                                |
-|  Datatype  | `Resolved at runtime`                | `Set during development`                        |                                                |
-| Core types | `Boolean`                            | `boolean`                                       |    `Only true/false no 'truthy or falsey'`     |
+|            | JavaScript                           | TypeScript                                      |               TypeScript Core Differences               |
+| :--------: | :----------------------------------- | :---------------------------------------------- | :-----------------------------------------------------: |
+| Variables  | `Dynamic can be changed at any time` | `Static cannot be re-assigned once initialized` |                                                         |
+|  Datatype  | `Resolved at runtime`                | `Set during development`                        |                                                         |
+| Core types | `Boolean`                            | `boolean`                                       |         `Only true/false no 'truthy or falsey'`         |
 |            | `Null`                               | `null`                                          |
-|            | `Number`                             | `number`                                        |      `All numbers, no floats or integers`      |
-|            | `String`                             | `string`                                        |               `All text values`                |
-|            |                                      | `array`                                         | `Any JS array, type can be flexible or strict` |
-|            |                                      | `object`                                        |    `Any JS object, specific types possible`    |
+|            | `Number`                             | `number`                                        |          `All numbers, no floats or integers`           |
+|            | `String`                             | `string`                                        |                    `All text values`                    |
+|            |                                      | `array`                                         |     `Any JS array, type can be flexible or strict`      |
+|            |                                      | `object`                                        |        `Any JS object, specific types possible`         |
 |            | `Undefined`                          | `undefined`                                     |
 |            | `BigInt`                             |                                                 |
 |            | `Symbol`                             | `symbol`                                        |
-|            |                                      | `tuple`                                         |      `Fixed length array with fixed type`      |
-|            |                                      | `enum`                                          |             `Auto enumerated list`             |
+|            |                                      | `tuple`                                         |          `Fixed length array with fixed type`           |
+|            |                                      | `enum`                                          |                 `Auto enumerated list`                  |
 |            |                                      | `unknown`                                       |
-|            |                                      | `any`                                           |          `No specific type assigned`           |
-|            |                                      | `never`                                         |
+|            |                                      | `any`                                           |               `No specific type assigned`               |
+|            |                                      | `never`                                         |                                                         |
+|            |                                      | `Function`                                      | `Set up as template for what expected values should be` |
 
 ## Required Materials
 
