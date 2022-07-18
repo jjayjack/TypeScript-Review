@@ -70,3 +70,17 @@ Creates tsconfig.json file which indicates that TypeScript needs to compile all 
 run `tsc` to compile
 run `tsc --watch`
 Allows for auto-matic compilation to update
+
+### tsconfig.json File
+
+#### strict options
+
+Enabling strict option will enable all strict
+noImplicity: ensures that parameter datatypes are defined
+strictNullChecks: ensures that null values are / not present
+stringFunctionTypes: ensures that function end values are defined
+stringBindCallAndApply: checks which function called on and ensures datatype is set
+
+#### Additional Checks
+
+Compiling checks that error if unused variables, code, or parameters are used and gives an error of warning that it is defined but never used / called
